@@ -6,7 +6,7 @@ const db = require('quick.db');
 const { TOKEN, PREFIX, AVATARURL, BOTNAME, } = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login('');
+client.login('ODE0NjA4NzA3NDEyMjk1Nzgw.YDgVeg.q_b_5swt3RHQNS6J-6yETUIsh2A');
 client.commands = new Collection();
 client.setMaxListeners(0);
 client.prefix = PREFIX;
@@ -142,4 +142,4 @@ function delay(delayInms) {
  });
 }
 
-//Bot coded by DarkMan#7483
+//Bot coded by !     HaaaMa#0509
